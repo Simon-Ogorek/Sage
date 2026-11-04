@@ -1,0 +1,3 @@
+/Users/simon/git/SAGE/build/CMakeFiles/Sage.dir
+/Users/simon/git/SAGE/build/CMakeFiles/edit_cache.dir
+/Users/simon/git/SAGE/build/CMakeFiles/rebuild_cache.dir
