@@ -3,4 +3,4 @@
 typedef struct Material
 {
     char *name;
-}Material;
+} Material;

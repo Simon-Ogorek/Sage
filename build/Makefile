@@ -345,6 +345,102 @@ src/shared_types.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sage.dir/build.make CMakeFiles/Sage.dir/src/shared_types.c.s
 .PHONY : src/shared_types.c.s
 
+src/standard/hashmap.o: src/standard/hashmap.c.o
+.PHONY : src/standard/hashmap.o
+
+# target to build an object file
+src/standard/hashmap.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sage.dir/build.make CMakeFiles/Sage.dir/src/standard/hashmap.c.o
+.PHONY : src/standard/hashmap.c.o
+
+src/standard/hashmap.i: src/standard/hashmap.c.i
+.PHONY : src/standard/hashmap.i
+
+# target to preprocess a source file
+src/standard/hashmap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sage.dir/build.make CMakeFiles/Sage.dir/src/standard/hashmap.c.i
+.PHONY : src/standard/hashmap.c.i
+
+src/standard/hashmap.s: src/standard/hashmap.c.s
+.PHONY : src/standard/hashmap.s
+
+# target to generate assembly for a file
+src/standard/hashmap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sage.dir/build.make CMakeFiles/Sage.dir/src/standard/hashmap.c.s
+.PHONY : src/standard/hashmap.c.s
+
+src/standard/list.o: src/standard/list.c.o
+.PHONY : src/standard/list.o
+
+# target to build an object file
+src/standard/list.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sage.dir/build.make CMakeFiles/Sage.dir/src/standard/list.c.o
+.PHONY : src/standard/list.c.o
+
+src/standard/list.i: src/standard/list.c.i
+.PHONY : src/standard/list.i
+
+# target to preprocess a source file
+src/standard/list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sage.dir/build.make CMakeFiles/Sage.dir/src/standard/list.c.i
+.PHONY : src/standard/list.c.i
+
+src/standard/list.s: src/standard/list.c.s
+.PHONY : src/standard/list.s
+
+# target to generate assembly for a file
+src/standard/list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sage.dir/build.make CMakeFiles/Sage.dir/src/standard/list.c.s
+.PHONY : src/standard/list.c.s
+
+src/standard/tri.o: src/standard/tri.c.o
+.PHONY : src/standard/tri.o
+
+# target to build an object file
+src/standard/tri.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sage.dir/build.make CMakeFiles/Sage.dir/src/standard/tri.c.o
+.PHONY : src/standard/tri.c.o
+
+src/standard/tri.i: src/standard/tri.c.i
+.PHONY : src/standard/tri.i
+
+# target to preprocess a source file
+src/standard/tri.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sage.dir/build.make CMakeFiles/Sage.dir/src/standard/tri.c.i
+.PHONY : src/standard/tri.c.i
+
+src/standard/tri.s: src/standard/tri.c.s
+.PHONY : src/standard/tri.s
+
+# target to generate assembly for a file
+src/standard/tri.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sage.dir/build.make CMakeFiles/Sage.dir/src/standard/tri.c.s
+.PHONY : src/standard/tri.c.s
+
+src/standard/vector.o: src/standard/vector.c.o
+.PHONY : src/standard/vector.o
+
+# target to build an object file
+src/standard/vector.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sage.dir/build.make CMakeFiles/Sage.dir/src/standard/vector.c.o
+.PHONY : src/standard/vector.c.o
+
+src/standard/vector.i: src/standard/vector.c.i
+.PHONY : src/standard/vector.i
+
+# target to preprocess a source file
+src/standard/vector.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sage.dir/build.make CMakeFiles/Sage.dir/src/standard/vector.c.i
+.PHONY : src/standard/vector.c.i
+
+src/standard/vector.s: src/standard/vector.c.s
+.PHONY : src/standard/vector.s
+
+# target to generate assembly for a file
+src/standard/vector.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sage.dir/build.make CMakeFiles/Sage.dir/src/standard/vector.c.s
+.PHONY : src/standard/vector.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -381,6 +477,18 @@ help:
 	@echo "... src/shared_types.o"
 	@echo "... src/shared_types.i"
 	@echo "... src/shared_types.s"
+	@echo "... src/standard/hashmap.o"
+	@echo "... src/standard/hashmap.i"
+	@echo "... src/standard/hashmap.s"
+	@echo "... src/standard/list.o"
+	@echo "... src/standard/list.i"
+	@echo "... src/standard/list.s"
+	@echo "... src/standard/tri.o"
+	@echo "... src/standard/tri.i"
+	@echo "... src/standard/tri.s"
+	@echo "... src/standard/vector.o"
+	@echo "... src/standard/vector.i"
+	@echo "... src/standard/vector.s"
 .PHONY : help
 
 

@@ -1,7 +1,9 @@
 #include "assets/model/types/obj.h"
 
 #include <SDL3/SDL_iostream.h>
-#include "shared_types.h"
+#include "standard/tri.h"
+#include "standard/vector.h"
+#include "standard/list.h"
 
 #define PAIR(c1, c2) (((c1) << 8) | (c2))
 

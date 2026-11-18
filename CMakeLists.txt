@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 find_package(SDL3 REQUIRED)
 find_package(cJSON REQUIRED)
+find_package(Vulkan REQUIRED)
 
 file(GLOB_RECURSE SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/src/*.c")
 
@@ -15,3 +16,4 @@ target_link_options(${PROJECT_NAME} PRIVATE -fsanitize=address)
 target_include_directories(${PROJECT_NAME} PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/src")
 target_link_libraries(${PROJECT_NAME} cjson)
 target_link_libraries(${PROJECT_NAME} SDL3::SDL3)
+target_link_libraries(${PROJECT_NAME} Vulkan::Vulkan)

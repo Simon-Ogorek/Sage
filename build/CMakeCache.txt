@@ -231,6 +231,18 @@ Sage_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 Sage_SOURCE_DIR:STATIC=/Users/simon/git/SAGE
 
+//Path to a program.
+Vulkan_GLSLANG_VALIDATOR_EXECUTABLE:FILEPATH=/opt/homebrew/bin/glslangValidator
+
+//Path to a program.
+Vulkan_GLSLC_EXECUTABLE:FILEPATH=/usr/local/bin/glslc
+
+//Path to a file.
+Vulkan_INCLUDE_DIR:PATH=/opt/homebrew/include
+
+//Path to a library.
+Vulkan_LIBRARY:FILEPATH=/usr/local/lib/libvulkan.dylib
+
 //The directory containing a CMake configuration file for cJSON.
 cJSON_DIR:PATH=/opt/homebrew/lib/cmake/cJSON
 
@@ -387,4 +399,14 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Deprecated.  Use -W[no-]deprecated instead.
 CMAKE_WARN_DEPRECATED:INTERNAL=ON
+//Details about finding Vulkan
+FIND_PACKAGE_MESSAGE_DETAILS_Vulkan:INTERNAL=[/usr/local/lib/libvulkan.dylib][/opt/homebrew/include][found components: glslc glslangValidator ][v1.4.363()]
+//ADVANCED property for variable: Vulkan_GLSLANG_VALIDATOR_EXECUTABLE
+Vulkan_GLSLANG_VALIDATOR_EXECUTABLE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Vulkan_GLSLC_EXECUTABLE
+Vulkan_GLSLC_EXECUTABLE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Vulkan_INCLUDE_DIR
+Vulkan_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Vulkan_LIBRARY
+Vulkan_LIBRARY-ADVANCED:INTERNAL=1
 

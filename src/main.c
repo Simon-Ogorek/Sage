@@ -17,6 +17,7 @@ typedef struct
 {
     SDL_Window *window;
     SDL_Renderer *renderer;
+    
 } AppState;
 
 static AppState state;
@@ -87,7 +88,7 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[])
         return SDL_APP_FAILURE;
     }
 
-    if (!SDL_CreateWindowAndRenderer("Sage", SDL_WINDOW_WIDTH, SDL_WINDOW_HEIGHT, SDL_WINDOW_RESIZABLE, &state.window, &state.renderer)) {
+    if (!SDL_CreateWindowAndRenderer("Sage", SDL_WINDOW_WIDTH, SDL_WINDOW_HEIGHT, SDL_WINDOW_RESIZABLE | SDL_WINDOW_VULKAN, &state.window, &state.renderer)) {
         return SDL_APP_FAILURE;
     }
     

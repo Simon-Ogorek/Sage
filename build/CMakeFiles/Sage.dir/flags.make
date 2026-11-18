@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/simon/git/SAGE/src -isystem /opt/homebrew/Cellar/cjson/1.7.19/include -iframework /Users/simon/Library/Frameworks/SDL3.xcframework/macos-arm64_x86_64
+C_INCLUDES = -I/Users/simon/git/SAGE/src -isystem /opt/homebrew/Cellar/cjson/1.7.19/include -isystem /opt/homebrew/include -iframework /Users/simon/Library/Frameworks/SDL3.xcframework/macos-arm64_x86_64
 
 C_FLAGSarm64 =  -arch arm64 -fsanitize=address -g -O1 -F/Users/simon/Library/Frameworks/SDL3.xcframework/macos-arm64_x86_64
 

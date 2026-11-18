@@ -5,6 +5,8 @@
 
 #include "shared_types.h"
 #include "types/obj.h"
+#include "standard/tri.h"
+#include "standard/vector.h"
 
 #define INIT_SIZE 128
 
@@ -20,7 +22,7 @@ int Initialize_Models()
     int i;
     Model *temp;
 
-    model_manager.models = List_Create_Size(INIT_SIZE);
+    List_Create_Size(INIT_SIZE, model_manager.models);
 
     for (i = 0; i < INIT_SIZE; i++)
     {
@@ -81,10 +83,10 @@ int Model_Create(char *filepath)
         return MEMORY_FAIL;
     }
 
-    model->positions = List_Create();
-    model->normals = List_Create();
-    model->texels = List_Create();
-    model->tris = List_Create();
+    List_Create(model->positions);
+    List_Create(model->normals);
+    List_Create(model->texels);
+    List_Create(model->tris);
 
     if (!model->positions || !model->normals || !model->texels || !model->tris)
     {
@@ -98,7 +100,8 @@ int Model_Create(char *filepath)
         return ERROR;
     }
 
-    const char *extension = get_filename_ext(filepath);
+    char *extension;
+    get_filename_ext(filepath, extension);
     printf("Got model ext: %s from %s\n", extension, filepath);
     if (!strcmp(extension, "obj"))
     {

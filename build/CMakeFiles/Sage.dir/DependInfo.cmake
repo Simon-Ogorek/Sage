@@ -17,6 +17,10 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/simon/git/SAGE/src/graphics/vulkan/vulkan.c" "CMakeFiles/Sage.dir/src/graphics/vulkan/vulkan.c.o" "gcc" "CMakeFiles/Sage.dir/src/graphics/vulkan/vulkan.c.o.d"
   "/Users/simon/git/SAGE/src/main.c" "CMakeFiles/Sage.dir/src/main.c.o" "gcc" "CMakeFiles/Sage.dir/src/main.c.o.d"
   "/Users/simon/git/SAGE/src/shared_types.c" "CMakeFiles/Sage.dir/src/shared_types.c.o" "gcc" "CMakeFiles/Sage.dir/src/shared_types.c.o.d"
+  "/Users/simon/git/SAGE/src/standard/hashmap.c" "CMakeFiles/Sage.dir/src/standard/hashmap.c.o" "gcc" "CMakeFiles/Sage.dir/src/standard/hashmap.c.o.d"
+  "/Users/simon/git/SAGE/src/standard/list.c" "CMakeFiles/Sage.dir/src/standard/list.c.o" "gcc" "CMakeFiles/Sage.dir/src/standard/list.c.o.d"
+  "/Users/simon/git/SAGE/src/standard/tri.c" "CMakeFiles/Sage.dir/src/standard/tri.c.o" "gcc" "CMakeFiles/Sage.dir/src/standard/tri.c.o.d"
+  "/Users/simon/git/SAGE/src/standard/vector.c" "CMakeFiles/Sage.dir/src/standard/vector.c.o" "gcc" "CMakeFiles/Sage.dir/src/standard/vector.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -198,6 +198,62 @@ CMakeFiles/Sage.dir/src/shared_types.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Sage.dir/src/shared_types.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/simon/git/SAGE/src/shared_types.c -o CMakeFiles/Sage.dir/src/shared_types.c.s
 
+CMakeFiles/Sage.dir/src/standard/hashmap.c.o: CMakeFiles/Sage.dir/flags.make
+CMakeFiles/Sage.dir/src/standard/hashmap.c.o: /Users/simon/git/SAGE/src/standard/hashmap.c
+CMakeFiles/Sage.dir/src/standard/hashmap.c.o: CMakeFiles/Sage.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/simon/git/SAGE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Sage.dir/src/standard/hashmap.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Sage.dir/src/standard/hashmap.c.o -MF CMakeFiles/Sage.dir/src/standard/hashmap.c.o.d -o CMakeFiles/Sage.dir/src/standard/hashmap.c.o -c /Users/simon/git/SAGE/src/standard/hashmap.c
+
+CMakeFiles/Sage.dir/src/standard/hashmap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Sage.dir/src/standard/hashmap.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/simon/git/SAGE/src/standard/hashmap.c > CMakeFiles/Sage.dir/src/standard/hashmap.c.i
+
+CMakeFiles/Sage.dir/src/standard/hashmap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Sage.dir/src/standard/hashmap.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/simon/git/SAGE/src/standard/hashmap.c -o CMakeFiles/Sage.dir/src/standard/hashmap.c.s
+
+CMakeFiles/Sage.dir/src/standard/list.c.o: CMakeFiles/Sage.dir/flags.make
+CMakeFiles/Sage.dir/src/standard/list.c.o: /Users/simon/git/SAGE/src/standard/list.c
+CMakeFiles/Sage.dir/src/standard/list.c.o: CMakeFiles/Sage.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/simon/git/SAGE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Sage.dir/src/standard/list.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Sage.dir/src/standard/list.c.o -MF CMakeFiles/Sage.dir/src/standard/list.c.o.d -o CMakeFiles/Sage.dir/src/standard/list.c.o -c /Users/simon/git/SAGE/src/standard/list.c
+
+CMakeFiles/Sage.dir/src/standard/list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Sage.dir/src/standard/list.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/simon/git/SAGE/src/standard/list.c > CMakeFiles/Sage.dir/src/standard/list.c.i
+
+CMakeFiles/Sage.dir/src/standard/list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Sage.dir/src/standard/list.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/simon/git/SAGE/src/standard/list.c -o CMakeFiles/Sage.dir/src/standard/list.c.s
+
+CMakeFiles/Sage.dir/src/standard/tri.c.o: CMakeFiles/Sage.dir/flags.make
+CMakeFiles/Sage.dir/src/standard/tri.c.o: /Users/simon/git/SAGE/src/standard/tri.c
+CMakeFiles/Sage.dir/src/standard/tri.c.o: CMakeFiles/Sage.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/simon/git/SAGE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Sage.dir/src/standard/tri.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Sage.dir/src/standard/tri.c.o -MF CMakeFiles/Sage.dir/src/standard/tri.c.o.d -o CMakeFiles/Sage.dir/src/standard/tri.c.o -c /Users/simon/git/SAGE/src/standard/tri.c
+
+CMakeFiles/Sage.dir/src/standard/tri.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Sage.dir/src/standard/tri.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/simon/git/SAGE/src/standard/tri.c > CMakeFiles/Sage.dir/src/standard/tri.c.i
+
+CMakeFiles/Sage.dir/src/standard/tri.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Sage.dir/src/standard/tri.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/simon/git/SAGE/src/standard/tri.c -o CMakeFiles/Sage.dir/src/standard/tri.c.s
+
+CMakeFiles/Sage.dir/src/standard/vector.c.o: CMakeFiles/Sage.dir/flags.make
+CMakeFiles/Sage.dir/src/standard/vector.c.o: /Users/simon/git/SAGE/src/standard/vector.c
+CMakeFiles/Sage.dir/src/standard/vector.c.o: CMakeFiles/Sage.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/simon/git/SAGE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Sage.dir/src/standard/vector.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Sage.dir/src/standard/vector.c.o -MF CMakeFiles/Sage.dir/src/standard/vector.c.o.d -o CMakeFiles/Sage.dir/src/standard/vector.c.o -c /Users/simon/git/SAGE/src/standard/vector.c
+
+CMakeFiles/Sage.dir/src/standard/vector.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Sage.dir/src/standard/vector.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/simon/git/SAGE/src/standard/vector.c > CMakeFiles/Sage.dir/src/standard/vector.c.i
+
+CMakeFiles/Sage.dir/src/standard/vector.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Sage.dir/src/standard/vector.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/simon/git/SAGE/src/standard/vector.c -o CMakeFiles/Sage.dir/src/standard/vector.c.s
+
 # Object files for target Sage
 Sage_OBJECTS = \
 "CMakeFiles/Sage.dir/src/assets/audio/audio.c.o" \
@@ -208,7 +264,11 @@ Sage_OBJECTS = \
 "CMakeFiles/Sage.dir/src/assets/texture/texture.c.o" \
 "CMakeFiles/Sage.dir/src/graphics/vulkan/vulkan.c.o" \
 "CMakeFiles/Sage.dir/src/main.c.o" \
-"CMakeFiles/Sage.dir/src/shared_types.c.o"
+"CMakeFiles/Sage.dir/src/shared_types.c.o" \
+"CMakeFiles/Sage.dir/src/standard/hashmap.c.o" \
+"CMakeFiles/Sage.dir/src/standard/list.c.o" \
+"CMakeFiles/Sage.dir/src/standard/tri.c.o" \
+"CMakeFiles/Sage.dir/src/standard/vector.c.o"
 
 # External object files for target Sage
 Sage_EXTERNAL_OBJECTS =
@@ -222,11 +282,16 @@ Sage: CMakeFiles/Sage.dir/src/assets/texture/texture.c.o
 Sage: CMakeFiles/Sage.dir/src/graphics/vulkan/vulkan.c.o
 Sage: CMakeFiles/Sage.dir/src/main.c.o
 Sage: CMakeFiles/Sage.dir/src/shared_types.c.o
+Sage: CMakeFiles/Sage.dir/src/standard/hashmap.c.o
+Sage: CMakeFiles/Sage.dir/src/standard/list.c.o
+Sage: CMakeFiles/Sage.dir/src/standard/tri.c.o
+Sage: CMakeFiles/Sage.dir/src/standard/vector.c.o
 Sage: CMakeFiles/Sage.dir/build.make
 Sage: /opt/homebrew/Cellar/cjson/1.7.19/lib/libcjson.1.7.19.dylib
 Sage: /Users/simon/Library/Frameworks/SDL3.xcframework/macos-arm64_x86_64/SDL3.framework/SDL3
+Sage: /usr/local/lib/libvulkan.dylib
 Sage: CMakeFiles/Sage.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/simon/git/SAGE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable Sage"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/simon/git/SAGE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking C executable Sage"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Sage.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
